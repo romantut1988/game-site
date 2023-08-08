@@ -4,7 +4,14 @@
 }
 
 body {
-    background: #1B1C1F;
+    background: #1b1c1f;
+}
+
+.navigation {
+    background-color: #323335;
+    border-radius: 24px;
+    width: 416px;
+    justify-content: center;
 }
 
 .logo {
@@ -25,13 +32,6 @@ body {
     100% {
         transform: rotate(360deg);
     }
-}
-
-.navigation {
-    background-color: #323335;
-    border-radius: 24px;
-    width: 416px;
-    justify-content: center;
 }
 
 .hero-title {
@@ -77,9 +77,10 @@ body {
     justify-content: center;
     align-items: flex-end;
     border-radius: 56px;
-    margin-right: 8px;
+    margin-left: 8px;
     background-color: #fdf386;
     transition: 0.2s ease-in;
+    overflow-y: clip;
 }
 
 .fortnite-img:hover {
@@ -93,7 +94,6 @@ body {
     justify-content: center;
     align-items: flex-end;
     border-radius: 56px;
-    margin-right: 8px;
     background-color: #69adfd;
     transition: 0.2s ease-in;
     overflow-y: clip;

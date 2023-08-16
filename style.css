@@ -138,10 +138,6 @@ body {
     background-color: #fcb8ff;
 }
 
-.footer-link:nth-child(2) {
-    margin: 0 24px;
-}
-
 .gallery,
 .articles {
     background-color: #F1EFE4;
@@ -170,6 +166,14 @@ body {
 
 .swiper-slide {
     width: 80%;
+}
+
+.footer-link:nth-child(2) {
+    margin: 0 24px;
+}
+
+.card-footer {
+    border: none;
 }
 
 @media (max-width: 1400px) {
